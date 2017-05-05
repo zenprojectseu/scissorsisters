@@ -14,7 +14,7 @@ $(function(){
             var yPos = -($window.scrollTop() / $bgobj.data('speed'));
             //put together our final background possition
 
-            vr coords = '50% '+ yPos + 'px';
+            var coords = '50% '+ yPos + 'px';
             //move the background
             $bgobj.css({backgroundPosition: coords});
         });// end window scroll
